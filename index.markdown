@@ -1,4 +1,5 @@
 ---
+title: Index
 layout: home
 ---
 
@@ -10,7 +11,6 @@ layout: home
           {{ comercio.web }}
         </a>
         <p> {{ comercio.local }}</p>
-        <img src="{{ comercio.imagen }}" alt="">
-    </div>
+</div>
     {% endfor %}
     </div>
