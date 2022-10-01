@@ -19,6 +19,3 @@ github_username: jekyll
 theme: minima
 plugins:
 - jekyll-feed
-storyblok:
-  token: 2jaAsk4gz3oYFzeJLTmN6Qtt
-  version: draft
