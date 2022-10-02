@@ -1,7 +1,9 @@
 ---
+title: Index
 layout: home
 ---
 
+Hola
 <div>
     {% for comercio in site.data.comercios %}
     <div class="{{ comercio.categoria }}">
@@ -10,7 +12,6 @@ layout: home
           {{ comercio.web }}
         </a>
         <p> {{ comercio.local }}</p>
-        <img src="{{ comercio.imagen }}" alt="">
-    </div>
+</div>
     {% endfor %}
     </div>
