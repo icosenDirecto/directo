@@ -19,10 +19,3 @@ github_username: jekyll
 theme: minima
 plugins:
 - jekyll-feed
-<<<<<<< HEAD
-- jekyll-admin
-storyblok:
-  token: 2jaAsk4gz3oYFzeJLTmN6Qtt
-  version: draft
-=======
->>>>>>> 96b83568fc63981ca4fce0d21739cb216ce57826
