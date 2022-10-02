@@ -3,6 +3,7 @@ title: Index
 layout: home
 ---
 
+Hola
 <div>
     {% for comercio in site.data.comercios %}
     <div class="{{ comercio.categoria }}">
