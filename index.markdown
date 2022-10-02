@@ -6,6 +6,11 @@ layout: home
 Hola
 
 <div>
+{% for include_relative bloqueshome.html %}
+</div>
+
+
+<div>
 {% for comercio in site.data.comercios %}
 <div class="{{ comercio.categoria }}">
 <p> {{ comercio.nombre }} </p>
