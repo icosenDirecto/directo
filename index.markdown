@@ -6,7 +6,7 @@ layout: home
 Hola
 
 <div>
-{% for include_relative bloqueshome.html %}
+{% for include_relative bloqueshome/registrocliente.html %}
 </div>
 
 
