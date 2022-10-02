@@ -80,4 +80,5 @@ Aprobación de crédito sujeto análisis crediticio de la entidad.
 **Contratos de adhesión**\
 Contratos de adhesión – Ley N° 24.240 de Defensa del Consumidor
 
-{{ page.anexo1.file }}
+<a href="{{ page.anexo1.file }}">Préstamo Consumo Dirigido – firma ológrafa</a>
+<a href="{{ page.anexo2.file }}">Préstamo Consumo Dirigido – firma electrónica</a>
