@@ -4,15 +4,12 @@ layout: home
 ---
 
 Hola
-<<<<<<< Updated upstream
 
 <div>
 {% for include_relative bloqueshome/registrocliente.html %}
 </div>
 
 
-=======
->>>>>>> Stashed changes
 <div>
     {% for comercio in site.data.comercios %}
     <div class="{{ comercio.categoria }}">
