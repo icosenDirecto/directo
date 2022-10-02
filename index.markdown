@@ -3,7 +3,7 @@ title: Index
 layout: home
 ---
 
-Hola
+Hola prueba v1.0
 
 <div>
 {% for include_relative bloqueshome/registrocliente.html %}
