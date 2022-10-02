@@ -6,11 +6,6 @@ layout: home
 Hola prueba v1.0
 
 <div>
-{% for include_relative bloqueshome/registrocliente.html %}
-</div>
-
-
-<div>
     {% for comercio in site.data.comercios %}
     <div class="{{ comercio.categoria }}">
         <p> {{ comercio.nombre }} </p>
