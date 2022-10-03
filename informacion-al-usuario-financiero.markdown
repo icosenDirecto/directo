@@ -7,7 +7,7 @@ anexo1:
   file: "/uploads/ANEXO-I-Solicitud-Comercio-con-Papeles.pdf"
 anexo2:
   file: "/uploads/ANEXO-II-Solicitud-Comercio-Paperless.pdf"
-layout: legales
+layout: default
 ---
 
 Accedé a un video del Banco Central de la República Argentina con información relevante para quien opera en el sistema financiero.
