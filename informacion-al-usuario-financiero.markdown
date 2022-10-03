@@ -7,7 +7,7 @@ anexo1:
   file: "/uploads/ANEXO-I-Solicitud-Comercio-con-Papeles.pdf"
 anexo2:
   file: "/uploads/ANEXO-II-Solicitud-Comercio-Paperless.pdf"
-layout: legales
+layout: page
 ---
 
 Accedé a un video del Banco Central de la República Argentina con información relevante para quien opera en el sistema financiero.
@@ -19,13 +19,9 @@ Atención de reclamos, quejas y agradecimientos:
 Responsables de atención al usuario de servicios financieros:
 
 * Titular: Paul Frati
-
 * Suplente: Fulvio Vaca Nuñez
-
 * Mail de atención: proteccionalusuario@directo.com.ar
-
 * Teléfono (0810) 222 5554
-
 * Dirección: Av. Corrientes 1174 7° CP C1043AAY CABA Ciudad Autónoma de Buenos Aires, Buenos Aires, Argentina
 
 Los reclamos de los usuarios deberán resolverse en un plazo máximo de 10 días hábiles. Ante la falta de respuesta o disconformidad con la misma podrán efectuar una denuncia ante el BCRA.
