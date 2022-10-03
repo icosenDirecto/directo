@@ -12,6 +12,8 @@ hero:
   image: "/uploads/credito-phone.png"
 layout: home
 ---
+<!DOCTYPE html>
+<html lang="es">
 
 {% include head.html %}
 
@@ -47,6 +49,9 @@ layout: home
 {% endfor %}
 </div>
 
-    {% include bootstrap.html %}
+{% include bootstrap.html %}
 
 </body>
+
+{% include footer.html %}
+</html>
