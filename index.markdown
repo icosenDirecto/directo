@@ -12,12 +12,9 @@ hero:
   image: "/uploads/credito-phone.png"
 layout: home
 ---
-<!DOCTYPE html>
-<html lang="es">
 
 {% include head.html %}
 
-<body>
 
 <section class="bg_degrade bgCorners">
 			<div class="main-container hero heroImage">
@@ -49,9 +46,4 @@ layout: home
 {% endfor %}
 </div>
 
-{% include bootstrap.html %}
-
-</body>
-
 {% include footer.html %}
-</html>
