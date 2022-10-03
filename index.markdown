@@ -12,6 +12,7 @@ hero:
   image: "/uploads/credito-phone.png"
 layout: home
 ---
+
 <!DOCTYPE html>
 <html lang="es">
 
