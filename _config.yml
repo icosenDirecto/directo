@@ -2,9 +2,6 @@
 title: Jekyll
 timezone: UTC
 collections:
-  bloqueshome:
-    title: BloquesHome
-    output: true
   posts:
     title: Posts
     output: true
