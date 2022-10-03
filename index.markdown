@@ -13,6 +13,10 @@ hero:
 layout: home
 ---
 
+{% include head.html %}
+
+<body>
+
 <section class="bg_degrade bgCorners">
 			<div class="main-container hero heroImage">
 				<div class="heroTitle moduleLarge">
@@ -42,3 +46,7 @@ layout: home
 </div>
 {% endfor %}
 </div>
+
+    {% include bootstrap.html %}
+
+</body>
