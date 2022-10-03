@@ -4,10 +4,10 @@ hero:
   title: Tu préstamo sin tantas vueltas
   subtitle: 100% online. Subí tu selfie + foto DNI y lo acreditamos en tu cuenta
   link: https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True
+  linkText: Pedí tu préstamo
   image: "/uploads/credito-phone.png"
 layout: home
 ---
-
 
 <section class="bg_degrade bgCorners">
 			<div class="main-container hero heroImage">
