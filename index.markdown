@@ -8,17 +8,25 @@ hero:
 layout: home
 ---
 
-<div>
 
-{{ page.hero.title }}
+<section class="bg_degrade bgCorners">
+			<div class="main-container hero heroImage">
+				<div class="heroTitle moduleLarge">
+					<h1 class="heroTitleXL">{{ page.hero.title }}</h1>
+					<h3>{{ page.hero.subtitle }}</h3>
+					<button class="btn btn_large btnGreen btn-green__hover">
+						<a href="{{page.hero.link}}" target="_self">Pedí tu
+							préstamo</a>
+					</button>
+				</div>
 
-{{ page.hero.subtitle }}
+				<div class="heroImagePosition">
+					<img src="{{page.hero.image }}" alt="Encontrá tu préstamo online fácil y rápido.">
+				</div>
+			</div>
+</section>
 
-{{page.hero.image }}
 
-{{page.hero.link}}
-
-</div>
 
 <div>
 {% for comercio in site.data.comercios %}
