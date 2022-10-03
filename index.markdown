@@ -15,15 +15,14 @@ layout: home
 					<h1 class="heroTitleXL">{{ page.hero.title }}</h1>
 					<h3>{{ page.hero.subtitle }}</h3>
 					<button class="btn btn_large btnGreen btn-green__hover">
-						<a href="{{page.hero.link}}" target="_self">Pedí tu
-							préstamo</a>
+						<a href="{{page.hero.link}}" target="_self">{{page.hero.linkText}}</a>
 					</button>
 				</div>
 
-				<div class="heroImagePosition">
-					<img src="{{page.hero.image }}" alt="Encontrá tu préstamo online fácil y rápido.">
-				</div>
-			</div>
+        <div class="heroImagePosition">
+	        <img src="{{page.hero.image}}" alt="Encontrá tu préstamo online fácil y rápido.">
+	      </div>
+      </div>
 </section>
 
 
