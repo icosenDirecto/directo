@@ -10,7 +10,13 @@ layout: home
 
 <div>
 
-{% for comercio in site.data.comercios %}
+{{ page.hero.title }}
+
+{{ page.hero.subtitle }}
+
+{{page.hero.image }}
+
+{{page.hero.link}}
 
 </div>
 
