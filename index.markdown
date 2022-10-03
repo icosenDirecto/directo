@@ -8,7 +8,6 @@ hero:
 layout: home
 ---
 
-
 <section class="bg_degrade bgCorners">
 			<div class="main-container hero heroImage">
 				<div class="heroTitle moduleLarge">
