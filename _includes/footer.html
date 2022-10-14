@@ -71,5 +71,16 @@
             <a href="/internas/boton-de-baja.html" class="legales_links__distancia legales_links__division">
                 Botón de Baja</a>
         </div>
+
+<div class="footerLegalesLinks">
+    {%- for path in page_paths -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            {%- if my_page.title -%}
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            {%- endif -%}
+          {%- endfor -%}
+</div>
+
+
     </div>
 </footer>
