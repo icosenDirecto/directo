@@ -82,8 +82,8 @@
 </div>
 
 <div>
-    {% for pages in site.pages %}
-        {% if pages.categoy == "legales" %}
+    {% for page in site.page %}
+        {% if page.categoy == "legales" %}
             <li><a href="{{ page.url }}"> {{ page.title}}</a></li>
         {% endif %}
     {% endfor %}    
