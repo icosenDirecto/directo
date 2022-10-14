@@ -10,8 +10,8 @@
                         target="_blank"></a></i>
                 <i class="fa-brands fa-instagram"><a href="https://www.instagram.com/directo.ar/"
                         target="_blank"></a></i>
-                <i class="fa-brands fa-linkedin-in"><a
-                        href="https://www.linkedin.com/company/directo-argentina/" target="_blank"></i></a>
+                <i class="fa-brands fa-linkedin-in"><a href="https://www.linkedin.com/company/directo-argentina/"
+                        target="_blank"></i></a>
             </div>
             <div class="footerAfip">
                 <img src="/assets/data-fiscal.webp" alt="Información Fiscal">
@@ -56,29 +56,29 @@
         <div class="footerLegalesLinks">
             <a href="/internas/terminos-y-condiciones.html"
                 class="legales_links__distancia legales_links__division">Términos y Condiciones</a>
-            <a href="/internas/politicas-de-privacidad.html"
-                class="legales_links__distancia legales_links__division">{{ site.data.politicas-de-privacidad.title}}</a>
+            <a href="/internas/politicas-de-privacidad.html" class="legales_links__distancia legales_links__division">{{
+                site.data.politicas-de-privacidad.title}}</a>
             <a href="/internas/proteccion_de_datos_personales.html"
                 class="legales_links__distancia legales_links__division"> Protección Datos Personales</a>
             <a href="/internas/proteccion-de-datos-personales.html"
                 class="legales_links__distancia legales_links__division"> Defensa Del Consumidor</a>
             <a href="/internas/libro-de-quejas.html" class="legales_links__distancia legales_links__division">
                 Libro de Quejas</a>
-            <a href="/internas/boton-de-arrepentimiento.html"
-                class="legales_links__distancia legales_links__division"> Botón de Arrepentimiento</a>
+            <a href="/internas/boton-de-arrepentimiento.html" class="legales_links__distancia legales_links__division">
+                Botón de Arrepentimiento</a>
             <a href="/internas/informacion-al-usuario-financiero.html"
                 class="legales_links__distancia legales_links__division"> Información al Usuario Financiero</a>
             <a href="/internas/boton-de-baja.html" class="legales_links__distancia legales_links__division">
                 Botón de Baja</a>
         </div>
 
-<div class="footerLegalesLinks">
-    {% for page in site.pages | sort: "posicion" %}
-        {% if page.categoria == "legales" %}
+        <div class="footerLegalesLinks">
+            {% for page in site.pages | sort: "posicion" %}
+            {% if page.categoria == "legales" %}
             <a href="{{ page.url }}" class="legales_links__distancia legales_links__division">{{ page.title }}</a>
-        {% endif %}
-    {% endfor %}    
-</div>
+            {% endif %}
+            {% endfor %}
+        </div>
 
 
     </div>
