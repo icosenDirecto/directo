@@ -73,7 +73,7 @@
         </div>
 
         <div class="footerLegalesLinks">
-            {% for page in site.pages | sort: "posicion" %}
+            {% for page in site.pages %}
             {% if page.categoria == "legales" %}
             <a href="{{ page.url }}" class="legales_links__distancia legales_links__division">{{ page.title }}</a>
             {% endif %}
