@@ -81,6 +81,14 @@
           {%- endfor -%}
 </div>
 
+<div>
+    {% for pages in site.pages %}
+        {% if pages.categoy == "legales" %}
+            <li><a href="{{ page.url }}"> {{ page.title}}</a></li>
+        {% endif %}
+    {% endfor %}    
+</div>
+
 
     </div>
 </footer>
