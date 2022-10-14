@@ -73,18 +73,9 @@
         </div>
 
 <div class="footerLegalesLinks">
-    {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
-          {%- endfor -%}
-</div>
-
-<div>
     {% for page in site.pages %}
         {% if page.categoria == "legales" %}
-            <ul><a href="{{ page.url }}">{{ page.title }}</a></ul>
+            <a href="{{ page.url }}" class="legales_links__distancia legales_links__division">{{ page.title }}</a>
         {% endif %}
     {% endfor %}    
 </div>
