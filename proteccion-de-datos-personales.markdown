@@ -2,6 +2,7 @@
 title: Protección de Datos Personales
 date: 2022-10-14 18:49:00 Z
 categoria: legales
+posicion: 3
 ---
 
 Crédito Directo S.A. cumple con todos los requisitos que exige la Ley Nº 25.326 de Protección de Datos Personales, modificatorias y complementarias- bajo el control de la DIRECCIÓN NACIONAL DE PROTECCIÓN DE DATOS PERSONALES, asumiendo el carácter de responsable registrado de las bases de datos que administra.\
