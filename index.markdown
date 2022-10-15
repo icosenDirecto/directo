@@ -12,6 +12,15 @@ SeccionIzq:
   link: https://mi.directo.com.ar/Cuenta/Ingresar
   linkText: Ingresar
   image: "/uploads/97.png"
+SeccionDer:
+  title: Elegí cómo pagar tu préstamo
+  subtitle: Conocé los medios de pago más convenientes para pagar las cuotas mensuales
+    de tu préstamo.
+  linkA: https://my.asisteclick.com/V2/request.php?id=4159170-4425&deptid=0&pagex=testing_bot&hashbot=collection
+  linkAText: Pagar con tarjeta de débito
+  linkB: "/medios-de-pago.html"
+  linkBText: Pagar con otros medios
+  image: 
 layout: home
 ---
 
