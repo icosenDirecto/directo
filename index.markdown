@@ -32,7 +32,7 @@ seccionD:
   subtitle: Potenciá tus ventas en el acto con Mínimos Requisitos y Aprobación Online
   link: 
   linkText: Conocé más
-  Key: 
+  image: "/uploads/5.png"
 layout: home
 ---
 
