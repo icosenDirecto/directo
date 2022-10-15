@@ -38,32 +38,38 @@ layout: home
         <div class="heroImagePosition">
             <img src="{{page.hero.image}}" alt="Encontrá tu préstamo online fácil y rápido.">
           </div>
-      </div>
-
+      </div>  
 </section>
 
 <section>
-<div>
-
-<button class="btn btn_large btnGreen btn-green__hover">
-						<a href="{{page.section1.link}}" target="_self">{{page.section1.linkText}}</a>
-					</button>
-
-</div>
-</section>
-<div>
+  <div>
     <div>
-    <h2>{{page.seccionA.title}}</h2>
-    <p>{{page.seccionA.subtitle}}</p>
-    <button class="btn btn_large">
-						<a href="{{page.seccionA.link}}" target="_self">{{page.seccionA.linkText}}</a>
-					</button>
+      <h2>{{page.seccionA.title}}</h2>
+      <p>{{page.seccionA.subtitle}}</p>
+      <button class="btn btn_large">
+				<a href="{{page.seccionA.link}}" target="_self">{{page.seccionA.linkText}}</a>
+			</button>
     </div>
     <div>
-    <img src="{{page.seccionA.image}}" alt="">
+      <img src="{{page.seccionA.image}}" alt="">
     </div>
-</div>
+  </div>
 <section>
+
+<section>
+  <div>
+    <div>
+      <h2>{{page.seccionB.title}}</h2>
+      <p>{{page.seccionB.subtitle}}</p>
+      <a href="{{page.seccionB1.link}}" target="_self"><p>{{page.seccionB1.linkText}}</p></a>
+      <a href="{{page.seccionB2.link}}" target="_self"><p>{{page.seccionB2.linkText}}</p></a>
+    </div>
+    <div>
+      <img src="{{page.seccionB.image}}" alt="">
+    </div>
+  </div>
+<section>
+
 
 <div>
 {% for comercio in site.data.comercios %}
