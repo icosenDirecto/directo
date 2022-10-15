@@ -6,11 +6,12 @@ hero:
   link: https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True
   linkText: Pedí tu préstamo
   image: "/uploads/credito-phone.png"
-seccion1:
+SeccionIzq:
   title: Tus préstamos
   subtitle: Ingresá a tu cuenta y accedé al detalle de tus préstamos.
+  link: https://mi.directo.com.ar/Cuenta/Ingresar
   linkText: Ingresar
-  image: 
+  image: "/uploads/97.png"
 layout: home
 ---
 
