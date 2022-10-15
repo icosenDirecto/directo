@@ -33,10 +33,8 @@ seccionD:
   link: 
   linkText: Conocé más
   image: "/uploads/5.png"
-layout: 
+layout: default
 ---
-
-{% include head.html %}
 
 <section class="bg_degrade bgCorners">
 <div class="main-container hero heroImage">
@@ -129,5 +127,3 @@ layout:
 </div>
 
 {% endcomment %}
-
-{% include footer.html %}
