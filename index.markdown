@@ -24,9 +24,15 @@ seccionB:
 seccionC:
   title: Sentite protegido
   subtitle: Te ayudamos a cuidar eso que más querés
-  link: 
+  link: "/asistencias.html"
   linkText: Servicios para vos
-  image: 
+  image: "/uploads/196.png"
+seccionD:
+  title: Conocé los beneficios de ser un comercio asociado
+  subtitle: Potenciá tus ventas en el acto con Mínimos Requisitos y Aprobación Online
+  link: 
+  linkText: Conocé más
+  Key: 
 layout: home
 ---
 
