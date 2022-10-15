@@ -33,7 +33,7 @@ seccionD:
   link: 
   linkText: Conocé más
   image: "/uploads/5.png"
-layout: home
+layout: 
 ---
 
 {% include head.html %}
