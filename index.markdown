@@ -1,20 +1,30 @@
 ---
 title: Index
 hero:
-  title: |-
-    Tu préstamo
-    sin tantas vueltas
-  subtitle: |-
-    100% online
-    Subí tu selfie + foto DNI y lo acreditamos en tu cuenta
+  title: Tu préstamo sin tantas vueltas
+  subtitle: 100% online Subí tu selfie + foto DNI y lo acreditamos en tu cuenta
   link: https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True
   linkText: Pedí tu préstamo
   image: "/uploads/credito-phone.png"
+seccionA:
+  title: Tus préstamos
+  subtitle: Ingresá a tu cuenta y accedé al detalle de tus préstamos.
+  link: https://mi.directo.com.ar/Cuenta/Ingresar
+  linkText: Ingresar
+  image: "/uploads/97.png"
+seccionB:
+  title: Elegí cómo pagar tu préstamo
+  subtitle: Conocé los medios de pago más convenientes para pagar las cuotas mensuales
+    de tu préstamo.
+  linkA: https://my.asisteclick.com/V2/request.php?id=4159170-4425&deptid=0&pagex=testing_bot&hashbot=collection
+  linkAText: Pagar con tarjeta de débito
+  linkB: "/medios-de-pago.html"
+  linkBText: Pagar con otros medios
+  image: 
 layout: home
 ---
 
 {% include head.html %}
-
 
 <section class="bg_degrade bgCorners">
 			<div class="main-container hero heroImage">
@@ -26,9 +36,10 @@ layout: home
 					</button>
 				</div>
         <div class="heroImagePosition">
-	        <img src="{{page.hero.image}}" alt="Encontrá tu préstamo online fácil y rápido.">
-	      </div>
+            <img src="{{page.hero.image}}" alt="Encontrá tu préstamo online fácil y rápido.">
+          </div>
       </div>
+
 </section>
 
 <section>
