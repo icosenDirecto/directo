@@ -68,7 +68,7 @@ layout: home
       <img src="{{page.seccionA.image}}" alt="">
     </div>
   </div>
-<section>
+</section>
 
 <section>
   <div>
@@ -82,7 +82,7 @@ layout: home
       <img src="{{page.seccionB.image}}" alt="">
     </div>
   </div>
-<section>
+</section>
 
 <section>
   <div>
@@ -97,7 +97,7 @@ layout: home
       <img src="{{page.seccionC.image}}" alt="">
     </div>
   </div>
-<section>
+</section>
 
 <section>
   <div>
@@ -112,7 +112,7 @@ layout: home
       <img src="{{page.seccionD.image}}" alt="">
     </div>
   </div>
-<section>
+</section>
 
 {% comment %}
 
