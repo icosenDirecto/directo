@@ -25,8 +25,8 @@ seccionC:
   title: Sentite protegido
   subtitle: Te ayudamos a cuidar eso que más querés
   link: 
-  linkText: 
-  Key: 
+  linkText: Servicios para vos
+  image: 
 layout: home
 ---
 
