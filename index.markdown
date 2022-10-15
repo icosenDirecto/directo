@@ -114,6 +114,7 @@ layout: home
   </div>
 <section>
 
+{% comment %}
 
 <div>
 {% for comercio in site.data.comercios %}
@@ -126,5 +127,7 @@ layout: home
 </div>
 {% endfor %}
 </div>
+
+{% endcomment %}
 
 {% include footer.html %}
