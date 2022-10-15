@@ -71,6 +71,36 @@ layout: home
   </div>
 <section>
 
+<section>
+  <div>
+    <div>
+      <h2>{{page.seccionC.title}}</h2>
+      <p>{{page.seccionC.subtitle}}</p>
+      <button class="btn btn_large">
+      <a href="{{page.seccionC.link}}" target="_self"><p>{{page.seccionC.linkText}}</p></a>
+      </button>
+    </div>
+    <div>
+      <img src="{{page.seccionC.image}}" alt="">
+    </div>
+  </div>
+<section>
+
+<section>
+  <div>
+    <div>
+      <h2>{{page.seccionD.title}}</h2>
+      <p>{{page.seccionD.subtitle}}</p>
+      <button class="btn btn_large">
+      <a href="{{page.seccionD.link}}" target="_self"><p>{{page.seccionD.linkText}}</p></a>
+      </button>
+    </div>
+    <div>
+      <img src="{{page.seccionD.image}}" alt="">
+    </div>
+  </div>
+<section>
+
 
 <div>
 {% for comercio in site.data.comercios %}
