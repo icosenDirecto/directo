@@ -19,8 +19,20 @@ seccionB:
   linkB1: https://my.asisteclick.com/V2/request.php?id=4159170-4425&deptid=0&pagex=testing_bot&hashbot=collection
   linkB1Text: Pagar con tarjeta de débito
   linkB2: "/medios-de-pago.html"
-  linkBText: Pagar con otros medios
+  linkB2Text: Pagar con otros medios
   image: 
+seccionC:
+  title: Sentite protegido
+  subtitle: Te ayudamos a cuidar eso que más querés
+  link: "/asistencias.html"
+  linkText: Servicios para vos
+  image: "/uploads/196.png"
+seccionD:
+  title: Conocé los beneficios de ser un comercio asociado
+  subtitle: Potenciá tus ventas en el acto con Mínimos Requisitos y Aprobación Online
+  link: 
+  linkText: Conocé más
+  image: "/uploads/5.png"
 layout: home
 ---
 
@@ -39,7 +51,8 @@ layout: home
         <div class="heroImagePosition">
             <img src="{{page.hero.image}}" alt="Encontrá tu préstamo online fácil y rápido.">
           </div>
-      </div>  
+      </div>
+
 </section>
 
 <section>
