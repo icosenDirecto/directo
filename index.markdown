@@ -16,9 +16,9 @@ seccionB:
   title: Elegí cómo pagar tu préstamo
   subtitle: Conocé los medios de pago más convenientes para pagar las cuotas mensuales
     de tu préstamo.
-  linkA: https://my.asisteclick.com/V2/request.php?id=4159170-4425&deptid=0&pagex=testing_bot&hashbot=collection
-  linkAText: Pagar con tarjeta de débito
-  linkB: "/medios-de-pago.html"
+  linkB1: https://my.asisteclick.com/V2/request.php?id=4159170-4425&deptid=0&pagex=testing_bot&hashbot=collection
+  linkB1Text: Pagar con tarjeta de débito
+  linkB2: "/medios-de-pago.html"
   linkBText: Pagar con otros medios
   image: 
 layout: home
@@ -27,14 +27,15 @@ layout: home
 {% include head.html %}
 
 <section class="bg_degrade bgCorners">
-			<div class="main-container hero heroImage">
-				<div class="heroTitle moduleLarge">
-					<h1 class="heroTitleXL">{{ page.hero.title }}</h1>
-					<h3>{{ page.hero.subtitle }}</h3>
-					<button class="btn btn_large btnGreen btn-green__hover">
-						<a href="{{page.hero.link}}" target="_self">{{page.hero.linkText}}</a>
-					</button>
-				</div>
+<div class="main-container hero heroImage">
+<div class="heroTitle moduleLarge">
+<h1 class="heroTitleXL">{{ page.hero.title }}</h1>
+<h3>{{ page.hero.subtitle }}</h3>
+<button class="btn btn_large btnGreen btn-green__hover">
+<a href="{{page.hero.link}}" target="_self">{{page.hero.linkText}}</a>
+</button>
+</div>
+
         <div class="heroImagePosition">
             <img src="{{page.hero.image}}" alt="Encontrá tu préstamo online fácil y rápido.">
           </div>
