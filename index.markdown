@@ -25,14 +25,34 @@ layout: home
 						<a href="{{page.hero.link}}" target="_self">{{page.hero.linkText}}</a>
 					</button>
 				</div>
-
         <div class="heroImagePosition">
 	        <img src="{{page.hero.image}}" alt="Encontrá tu préstamo online fácil y rápido.">
 	      </div>
       </div>
 </section>
 
+<section>
+<div>
 
+<button class="btn btn_large btnGreen btn-green__hover">
+						<a href="{{page.section1.link}}" target="_self">{{page.section1.linkText}}</a>
+					</button>
+
+</div>
+</section>
+<div>
+    <div>
+    <h2>{{page.seccionA.title}}</h2>
+    <p>{{page.seccionA.subtitle}}</p>
+    <button class="btn btn_large">
+						<a href="{{page.seccionA.link}}" target="_self">{{page.seccionA.linkText}}</a>
+					</button>
+    </div>
+    <div>
+    <img src="{{page.seccionA.image}}" alt="">
+    </div>
+</div>
+<section>
 
 <div>
 {% for comercio in site.data.comercios %}
