@@ -1,7 +1,7 @@
 const formOperaciones = document.getElementById('formOperaciones');
 const resultOperaciones = document.getElementById('resultOperaciones');
 
-form.addEventListener('submit', function(e) {
+formOperaciones.addEventListener('submit', function(e) {
     const formData = new FormData(formOperaciones);
     const Celular = formData.get('cellphone');
     const mySubject = `Prueba idForm :: Libro de quejas ${Celular}`;
