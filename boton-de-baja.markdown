@@ -36,4 +36,4 @@ layout: legales
 					</div>
 				</form>
 			</div>
-		</section>
+</section>
