@@ -11,7 +11,8 @@ layout: legales
 					<img src="{{page.hero.image}}" alt="">
 				</div>
 
-				<form target="_blank" action="https://formsubmit.co/4ef48ced21afdb3d0a285ea0c576c3d9" method="POST">
+				<form method="POST" id="form">
+					<input type="hidden" name="access_key" value="6036d195-225e-485b-80a9-a480ca3046ea">
 					<div class="formFlex">
 						<input type="hidden" name="_subject" value="Nueva Sugerencia :: Libro de quejas">
 						<input type="hidden" name="_next" value="https://directo.netlify.app/internas/thank-you.html">

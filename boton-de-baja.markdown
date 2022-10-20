@@ -11,7 +11,8 @@ layout: legales
 					<img src="{{page.hero.image}}" alt="">
 				</div>
 
-				<form action="https://api.web3forms.com/submit" method="POST">
+				<form method="POST" id="form">
+					<input type="hidden" name="access_key" value="6036d195-225e-485b-80a9-a480ca3046ea">
 					<div class="formFlex">
 						<input type="hidden" name="access_key" value="6036d195-225e-485b-80a9-a480ca3046ea">
 						<input type="hidden" name="_subject" value="Nueva Sugerencia :: Libro de quejas">
