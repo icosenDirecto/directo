@@ -1,5 +1,5 @@
 const formOperaciones = document.getElementById('formOperaciones');
-const result = document.getElementById('result');
+const resultOperaciones = document.getElementById('resultOperaciones');
 
 form.addEventListener('submit', function(e) {
     const formData = new FormData(formOperaciones);

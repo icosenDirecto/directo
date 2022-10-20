@@ -27,7 +27,7 @@ layout: legales
 						<input type="number" name="cellphone" class="form-control" placeholder="Celular (Cód. de área + número)" required>
 						<textarea name="mensaje" id="" cols="30" rows="10" class="form-control" placeholder="Mensaje"></textarea>
 						<button type="submit" class="btn btn_large btnBlue btnContacto">Enviar</button>
-						<div id="result"></div>
+						<div id="resultOperaciones"></div>
 					</div>
 				</form>
 		    </div>
