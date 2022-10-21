@@ -818,6 +818,9 @@ form {
 .formCheckboxText {
 	font-family: $primaria;
 	font-size: $squash;
+	display: flex;
+    align-items: baseline;
+    gap: 4px;
 }
 
 input::placeholder {
