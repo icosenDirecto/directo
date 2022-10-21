@@ -453,7 +453,7 @@ h3 {
 }
 
 .listLegales li {
-	font-size: var(--pingpong);
+	font-size: (--pingpong);
 }
 
 // Iconos
@@ -885,14 +885,14 @@ textarea {
 	.menu-toggle span {
 		width: 100%;
 		height: 3px;
-		background-color: var($negro);
+		background-color: ($negro);
 		z-index: 4;
 		transition: all .2s ease;
 		transform-origin: center;
 	}
 
 	.mobile-main {
-		background-color: var($celeste);
+		background-color: ($celeste);
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -944,7 +944,7 @@ textarea {
 	}
 
 	.heroTitleXL {
-		font-size: var($futbol);
+		font-size: ($futbol);
 	}
 
 	.heroImage {
@@ -990,7 +990,7 @@ textarea {
 
 	.comerciosTitle h2,
 	.comerciosTitle p {
-		color: var($blanco) !important;
+		color: ($blanco) !important;
 	}
 
 	/* MAIN CONTAINER */
@@ -1043,7 +1043,7 @@ textarea {
 	}
 
 	.listLegales a {
-		font-size: var($pingpong);
+		font-size: ($pingpong);
 	}
 
 	/* BACKGROUNDS */
@@ -1056,23 +1056,23 @@ textarea {
 	/* FONTS */
 
 	h1 {
-		font-size: var($tenis);
+		font-size: ($tenis);
 		font-weight: 600;
 		line-height: 108%;
 	}
 
 	h2 {
-		font-size: var($handball);
+		font-size: ($handball);
 	}
 
 	h3 {
-		font-size: var($squash);
+		font-size: ($squash);
 		font-weight: 500;
 	}
 
 	h5 {
-		color: var($blanco);
-		font-size: var($squash);
+		color: ($blanco);
+		font-size: ($squash);
 		line-height: 1.25;
 		font-weight: 300;
 	}
@@ -1097,7 +1097,7 @@ textarea {
 	/* LINKS */
 
 	li a {
-		font-size: var($golf);
+		font-size: ($golf);
 	}
 
 	/* IMAGES */
