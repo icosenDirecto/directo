@@ -818,9 +818,6 @@ form {
 .formCheckboxText {
 	font-family: $primaria;
 	font-size: $squash;
-	display: flex;
-    align-items: baseline;
-    gap: 4px;
 }
 
 input::placeholder {
@@ -1129,6 +1126,12 @@ textarea {
 		display: flex;
 		flex-direction: column;
 		row-gap: 24px;
+	}
+
+	.formCheckboxText {
+		display: flex;
+		align-items: baseline;
+		gap: 4px;
 	}
 
 	/* FOOTER */
