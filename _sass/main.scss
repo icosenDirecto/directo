@@ -839,3 +839,341 @@ textarea {
 	padding: 16px !important;
 	height: 120px !important;
 }
+
+
+@media (max-width: $layout-breakpoint-mobile) {
+
+	header {
+		height: 64px;
+	}
+
+	.grid-header {
+		display: flex;
+		align-items: flex-start;
+		margin: 0px 24px;
+	}
+
+	.logo {
+		z-index: 99;
+	}
+
+	.logo-directo__header {
+		width: 60%;
+	}
+
+	.navegacion,
+	.comercios {
+		display: none;
+	}
+
+	.header-mobile {
+		display: block;
+	}
+
+	.menu-toggle {
+		position: fixed;
+		top: 24px;
+		right: 24px;
+		z-index: 3;
+		width: 28px;
+		height: 19px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.menu-toggle span {
+		width: 100%;
+		height: 3px;
+		background-color: var(--negro);
+		z-index: 4;
+		transition: all .2s ease;
+		transform-origin: center;
+	}
+
+	.mobile-main {
+		background-color: var(--celeste);
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+
+		/* width: 100vw;
+		height: 100vh; */
+
+		transform: translateY(-100%);
+		z-index: 2;
+		transition: transform 0.5s ease;
+		text-align: center;
+		display: flex !important;
+	}
+
+	.mobile-main-nav {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+		margin: 0 auto;
+	}
+
+	.mobileNav {
+		margin-bottom: 24px;
+	}
+
+	.open {
+		transform: translateY(0);
+	}
+
+	.servicios {
+		flex-direction: column;
+	}
+
+	.serviciosMediosPago {
+		flex-direction: column;
+	}
+
+	.hero,
+	.servicios {
+		padding: 40px 0;
+	}
+
+	.heroTitle,
+	.servicios__title {
+		width: auto;
+	}
+
+	.heroTitleXL {
+		font-size: var(--futbol);
+	}
+
+	.heroImage {
+		align-items: baseline;
+		height: auto;
+	}
+
+	.heroImagePosition {
+		display: none;
+	}
+
+	.heroLegales {
+		padding: 42px 0px 24px;
+		margin-bottom: 24px;
+	}
+
+	.sectionIzquierda {
+		flex-basis: auto;
+	}
+
+	.modulo {
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+		padding: 64px 0;
+	}
+
+	.moduloDestacado {
+		flex-direction: column;
+		padding: 24px;
+		text-align: center;
+	}
+
+	.comerciosFeatures {
+		flex-basis: auto;
+		grid-template-columns: 1fr;
+	}
+
+	.comerciosTitle {
+		flex-basis: auto;
+		padding: 0 24px;
+	}
+
+	.comerciosTitle h2,
+	.comerciosTitle p {
+		color: var(--blanco) !important;
+	}
+
+	/* MAIN CONTAINER */
+
+	.main-container {
+		margin: 0 24px;
+	}
+
+	/* MODULES */
+
+	.module {
+		flex-direction: column;
+	}
+
+	.moduleLarge {
+		flex-basis: auto;
+	}
+
+	.moduleCard {
+		padding: 12px 16px;
+	}
+
+	.redesPago {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 16px;
+		row-gap: 16px;
+	}
+
+	.moduleColumnThree {
+		flex-basis: auto;
+		grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+		grid-column-gap: 24px;
+		grid-row-gap: 24px;
+	}
+
+	.moduleSpace {
+		padding: 32px 0;
+	}
+
+	.moduleHeaderEspecial {
+		display: flex;
+		flex-direction: column;
+		padding-top: 64px;
+		height: auto;
+	}
+
+	.moduleLegales {
+		padding: 64px 0;
+	}
+
+	.listLegales a {
+		font-size: var(--pingpong);
+	}
+
+	/* BACKGROUNDS */
+
+	.bgCorners {
+		border-radius: 0px 0px 42px 42px;
+		margin-top: 64px;
+	}
+
+	/* FONTS */
+
+	h1 {
+		font-size: var(--tenis);
+		font-weight: 600;
+		line-height: 108%;
+	}
+
+	h2 {
+		font-size: var(--handball);
+	}
+
+	h3 {
+		font-size: var(--squash);
+		font-weight: 500;
+	}
+
+	h5 {
+		color: var(--blanco);
+		font-size: var(--squash);
+		line-height: 1.25;
+		font-weight: 300;
+	}
+
+	/* BUTTON */
+
+	button {
+		width: auto;
+	}
+
+	.btn_large {
+		margin-top: 64px;
+		padding: 16px 0;
+		width: 100%;
+	}
+
+	.btn_medium {
+		padding: 16px 24px;
+		width: 100%;
+	}
+
+	/* LINKS */
+
+	li a {
+		font-size: var(--golf);
+	}
+
+	/* IMAGES */
+
+	.hero__image {
+		display: none;
+	}
+
+	.mediosPago>img {
+		width: 80%;
+	}
+
+	/* FORMS */
+
+	.formGrid {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.formThanks {
+		flex-direction: column;
+		padding: 64px 0 24px;
+	}
+
+	.formFlexModule {
+		display: flex;
+		flex-direction: column;
+		row-gap: 24px;
+	}
+
+	/* FOOTER */
+
+	.footerEmpresa,
+	.footerLegales {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.footerEmpresa {
+		margin-bottom: 24px;
+	}
+
+	.footerEmpresaLogo {
+		margin-bottom: 16px;
+	}
+
+	.footerSocial {
+		margin-bottom: 36px;
+	}
+
+	.footerEmpresaCol1,
+	.footerEmpresaCol2,
+	.footerEmpresaCol3,
+	.footerEmpresaCol4 {
+		margin-bottom: 24px;
+	}
+
+	.footer_item {
+		margin-top: 16px;
+	}
+
+	.footerLegalesLinks {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.legales_links__distancia {
+		margin-bottom: 16px;
+		/* margin-right: 0px; */
+		padding-right: 0px;
+		line-height: 1.5;
+	}
+
+	.legales_links__division {
+		border: none;
+	}
+
+}
