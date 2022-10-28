@@ -42,7 +42,7 @@ target="_self">Quiero ganarme la bonificación</a>
 
 <section id="basesycondiciones">
     <div class="main-container moduleLegales">
-        {% for legales in site.legales %}
+        {% for page in site.legales %}
         {% if page.categoria == "bonificacion" %}
             <h2>{{ legales.title }}</h2>
             <p>{{ legales.content | markdownify }}</p>
