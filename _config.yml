@@ -2,6 +2,9 @@
 title: Jekyll
 timezone: UTC
 collections:
+  legales:
+    title: Legales
+    output: true
   posts:
     title: Posts
     output: true
