@@ -44,6 +44,7 @@ layout: default
         {% if legales.categoria == "bonificacion" %}
             <h2>{{ legales.title }}</h2>
             <p>{{ legales.content | markdownify }}</p>
+        {% endif %}
         {% endfor %}
     </div>
 </section>
