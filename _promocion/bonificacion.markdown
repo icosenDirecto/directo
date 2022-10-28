@@ -13,7 +13,7 @@ layout: default
         <div class="">
             <div>
                 <div>
-                    <h1>Participá por una bonificación del 100% de tu próxima cuota\*</h1>
+                    <h1>Participá por una bonificación del 100% de tu próxima cuota*</h1>
                     <p>Registrate en <a href="https://mi.directo.com.ar/Cuenta/Registro?utm_source=Sorteo&utm_medium=SorteoUltimaCuota" class="linkDestacado">mi.directo.com.ar</a> y ya estás participando.<br>
                     Así de simple. Así de Directo.
                     </p>
@@ -41,10 +41,8 @@ layout: default
 <section id="basesycondiciones">
     <div class="main-container moduleLegales">
         {% for legales in site.legales %}
-        {% if legales.categoria == "bonificacion" %}
             <h2>{{ legales.title }}</h2>
             <p>{{ legales.content | markdownify }}</p>
-        {% endif %}
         {% endfor %}
     </div>
 </section>
