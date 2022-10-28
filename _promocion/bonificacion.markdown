@@ -40,8 +40,5 @@ target="_self">Quiero ganarme la bonificación</a>
 
 <section id="basesycondiciones">
 <div class="main-container moduleLegales">
-<div>
-<p>BASES Y CONDICIONES DE LA PROMOCIÓN: “TE REGALAMOS LA PRÓXIMA CUOTA”</p>
-</div>
-</div>
+
 </section>
