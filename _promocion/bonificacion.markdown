@@ -39,12 +39,11 @@ target="_self">Quiero ganarme la bonificación</a>
 </section>
 
 <section id="basesycondiciones">
-<div class="main-container moduleLegales">
-
-{% for legales in site.legales %}
-{% if page.categoria == "bonificacion" %}
-  <h2>{{ legales.title }}</h2>
-  <p>{{ legales.content | markdownify }}</p>
-{% endfor %}
-
+    <div class="main-container moduleLegales">
+        {% for legales in site.legales %}
+        {% if page.categoria == "bonificacion" %}
+            <h2>{{ legales.title }}</h2>
+            <p>{{ legales.content | markdownify }}</p>
+        {% endfor %}
+    </div>
 </section>
