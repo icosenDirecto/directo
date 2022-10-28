@@ -8,6 +8,9 @@ collections:
   preguntas-frecuentes:
     title: Preguntas Frecuentes
     output: false
+  promocion:
+    title: Promocion
+    output: true
   uploads:
     title: Uploads
     output: true
