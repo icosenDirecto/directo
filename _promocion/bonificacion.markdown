@@ -41,9 +41,8 @@ layout: default
 <section id="basesycondiciones">
     <div class="main-container moduleLegales">
         {% for legal in site.legales %}
-        {% assign legalidad = legal | where: "categories", "bonificacion" | first %}
-            <h2>{{ legalidad.title }}</h2>
-            <p>{{ legalidad.content | markdownify }}</p>
+            <h2>{{ legal.title }}</h2>
+            <p>{{ legal.content | markdownify }}</p>
         {% endfor %}
     </div>
 </section>
