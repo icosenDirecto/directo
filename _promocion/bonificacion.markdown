@@ -40,9 +40,9 @@ layout: default
 
 <section id="basesycondiciones">
     <div class="main-container moduleLegales">
-        {% for legal in collection.legales %}
-            <h2>{{ legal.title }}</h2>
-            <p>{{ legal.content | markdownify }}</p> 
+        {% for legales in site.collections %}
+            <h2>{{ legales.title }}</h2>
+            <p>{{ legales.content | markdownify }}</p> 
         {% endfor %}
     </div>
 </section>
