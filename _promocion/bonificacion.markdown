@@ -41,7 +41,7 @@ layout: default
 <section id="basesycondiciones">
     <div class="main-container moduleLegales">
         {% for legales in site.legales %}
-        {% if collection.categoria == "bonificacion" %}
+        {% if page.categories == "bonificacion" %}
             <h2>{{ legales.title }}</h2>
             <p>{{ legales.content | markdownify }}</p>
         {% endif %}
