@@ -3,6 +3,8 @@ title: 'Bases y condiciones de la promoción: "Te regalamos la próxima cuota"'
 date: 2022-10-28 13:01:00 Z
 categories:
 - bonificacion
+tags:
+- bonificacion
 ---
 
  1. Promoción. Organizador: Crédito Directo S.A. CUIT N° 30-71210113-6, con domicilio en Avenida Corrientes 1174 Piso 7 de la Ciudad Autónoma de Buenos Aires (en adelante, el “Organizador”), organiza esta promoción denominada “TE REGALAMOS LA PRÓXIMA CUOTA” (en adelante referida como la “Promoción”).
