@@ -28,7 +28,7 @@ layout: default
         <div class="moduleDetalle">
             <ul class="listLegales">
                 <li>
-                * Tope $10.000
+                * Tope $11.000
                 </li>
                 <li>
                 <a href="#basesycondiciones"><i class="fa-solid fa-angle-down"></i> Ver bases y condiciones de la promoción</a>
@@ -41,8 +41,23 @@ layout: default
 <section id="basesycondiciones">
     <div class="main-container moduleLegales">
         {% for legal in site.legales %}
+        {% if legal.categories == "prueba" %}
             <h2>{{ legal.title }}</h2>
             <p>{{ legal.content | markdownify }}</p>
+        {% endif %}    
         {% endfor %}
     </div>
 </section>
+
+<ul>
+<!-- uses categories of the current post -->
+<!--I used theCategory to avoid confusion, use any variable you want -->
+{% for theCategory in page.categories %} 
+    {% assign popular_posts = site.popular_posts | where:"category", theCategory %} 
+      {% for page in popular_posts | limit:3 %}
+         <li>
+         <a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
+         </li>
+      {% endfor %}
+{% endfor %}
+</ul>
