@@ -28,7 +28,7 @@ layout: default
         <div class="moduleDetalle">
             <ul class="listLegales">
                 <li>
-                * Tope $10.000
+                * Tope $11.000
                 </li>
                 <li>
                 <a href="#basesycondiciones"><i class="fa-solid fa-angle-down"></i> Ver bases y condiciones de la promoción</a>
@@ -40,9 +40,10 @@ layout: default
 
 <section id="basesycondiciones">
     <div class="main-container moduleLegales">
-        {% for legales in site.collections %}
-            <h2>{{ legales.title }}</h2>
-            <p>{{ legales.content | markdownify }}</p> 
+    {% assign legales = site.legales | where: "categories","prueba" %}
+        {% for legal in legales %}
+            <h2>{{ legal.title }}</h2>
+            <p>{{ legal.content | markdownify }}</p> 
         {% endfor %}
     </div>
 </section>
