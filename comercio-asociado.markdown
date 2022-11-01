@@ -20,5 +20,15 @@ seccionA:
   feature5: Ya calificamos a 1.000.000 de clientes, con una financiación superior
     a los 5.000 MILLONES de PESOS
   feature6: Realizamos campañas de marketing para incentivar tus ventas.
+seccionB:
+  title: "¿Cómo podes adherir tu comercio?"
+  subtitle: Muy fácil, con los datos requeridos podes comenzar a operar en solo 72
+    HS.
+  feature1: Identidad del titular del comercio o de su representante
+  feature2: Documentación respaldatoria de situación patrimonial y/o impositiva
+  feature3: Constancia de inscripción de AFIP
+  feature4: Habilitación municipal o en trámite
+  feature5: Cuenta bancaria para acreditarte el dinero
+  feature6: 
 ---
 
