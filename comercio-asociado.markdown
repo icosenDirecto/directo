@@ -45,14 +45,13 @@ layout: default
 						<a href="" target="_self">{{page.hero.linkText}}</a>
 					</button>
 				</div>
-
 				<div class="hero__image sectionDerecha">
 					<img src="{{page.hero.image}}">
 				</div>
 			</div>
-		</section>
+</section>
 
-		<section class="bgWhite">
+<section class="bgWhite">
 			<div class="main-container modulo">
 				<div class="moduleTitle">
 					<h2>{{page.seccionA.title}}</h2>
@@ -89,14 +88,14 @@ layout: default
 					</div>
 				</div>
 			</div>
-		</section>
+</section>
 
-		<section class="bgCeruleo">
-			<div class="moduloDestacado">
-				<img class="img123" src="\assets\123.png">
-				<p class="moduloDestacadoText">6000 puntos de venta<br> adheridos en todo el país</p>
-			</div>
-		</section>
+<section class="bgCeruleo">
+	<div class="moduloDestacado">
+		<img class="img123" src="\assets\123.png">
+			<p class="moduloDestacadoText">6000 puntos de venta<br> adheridos en todo el país</p>
+	</div>
+</section>
 
 		<section class="bgWhite">
 			<div class="main-container modulo">
