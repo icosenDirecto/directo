@@ -97,7 +97,7 @@ layout: default
 	</div>
 </section>
 
-		<section class="bgWhite">
+<section class="bgWhite">
 			<div class="main-container modulo">
 				<div class="moduleTitle">
 					<h2>{{page.seccionB.title}}</h2>
@@ -127,13 +127,13 @@ layout: default
 					</div>
 				</div>
 			</div>
-		</section>
+</section>
 
-		<section class="servicios main-container">
-			<div class="moduleTitle">
-				<h2>Quiero adherir<br> mi comercio</h2>
-				<p>Dejanos tus datos y nos estaremos comunicando con vos.</p>
-			</div>
+<section class="servicios main-container">
+	<div class="moduleTitle">
+		<h2>{{page.form.title}}</h2>
+		<p>{{page.form.subtitle}}</p>
+	</div>
 
 			<form target="_blank" action="https://api.web3forms.com/submit" method="POST">
 				<input type="hidden" name="access_key" value="17efea1b-d545-4649-a9c1-c5890aaf8b55">
@@ -148,4 +148,4 @@ layout: default
 				<input type="hidden" name="_captcha" value="false">
 				<button type="submit" class="btn btn_large btnBlue btnContacto">Enviar</button>
 			</form>
-		</section>
+</section>
