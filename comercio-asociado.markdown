@@ -30,6 +30,9 @@ seccionB:
   feature4: Habilitación municipal o en trámite
   feature5: Cuenta bancaria para acreditarte el dinero
   feature6: 
+form:
+  title: Quiero adherir mi comercio
+  subtitle: Dejanos tus datos y nos estaremos comunicando con vos.
 layout: default
 ---
 
