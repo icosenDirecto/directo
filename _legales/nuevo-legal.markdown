@@ -1,5 +1,5 @@
 ---
-title: Nuevo Legal
+title: 'Bases y condiciones de la promoción: "GiftCard"'
 date: 2022-10-31 23:41:00 Z
 categories:
 - giftcard
