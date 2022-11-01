@@ -30,5 +30,6 @@ seccionB:
   feature4: Habilitación municipal o en trámite
   feature5: Cuenta bancaria para acreditarte el dinero
   feature6: 
+layout: default
 ---
 
