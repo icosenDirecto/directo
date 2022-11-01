@@ -3,12 +3,13 @@ title: GiftCard
 date: 2022-10-28 12:45:00 Z
 hero:
   image: "/uploads/48.png"
+layout: legales
 ---
 
 <section>
 			<div class="main-container moduleHeaderEspecial">
 				<div>
-					<img src="{{page.hero.image}}" alt="">
+					<img src="/assets/48.png" alt="">
 				</div>
 				<div class="">
 					<div>
