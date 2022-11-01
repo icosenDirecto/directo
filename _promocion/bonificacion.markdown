@@ -9,7 +9,7 @@ layout: default
 <section>
     <div class="main-container moduleHeaderEspecial">
         <div>
-            <img src="/assets/48.png" alt="">
+            <img src="{{page.hero.image}}" alt="">
         </div>
 
         <div>
