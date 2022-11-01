@@ -21,19 +21,15 @@ layout: default
             </div>
             <div>
                 <button class="btn btn_large btnGreen btn-green__hover">
-                <a href="https://mi.directo.com.ar/Cuenta/Registro?utm_source=Sorteo&utm_medium=SorteoUltimaCuota" target="_self">Quiero ganarme la bonificación</a>
-                </button>
+                    <a href="https://mi.directo.com.ar/Cuenta/Registro?utm_source=Sorteo&utm_medium=SorteoUltimaCuota" target="_self">Quiero ganarme la bonificación</a>
+                    </button>
             </div>
         </div>
 
         <div class="moduleDetalle">
             <ul class="listLegales">
-                <li>
-                * Tope $10.000
-                </li>
-                <li>
-                <a href="#basesycondiciones"><i class="fa-solid fa-angle-down"></i> Ver bases y condiciones de la promoción</a>
-                </li>
+                <li>* Tope $10.000</li>
+                <li><a href="#basesycondiciones"><i class="fa-solid fa-angle-down"></i> Ver bases y condiciones de la promoción</a></li>
             </ul>
         </div>
     </div>
