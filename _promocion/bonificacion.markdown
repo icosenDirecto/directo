@@ -33,11 +33,16 @@ layout: default
                 <li><a href="#basesycondiciones"><i class="fa-solid fa-angle-down"></i> Ver bases y condiciones de la promoción</a></li>
                 </ul>
             </div>
+            <div>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Link with href
+                </a>
+            </div>    
         </div>
     </div>
 </section>
 
-<section id="basesycondiciones">
+<section class="collapse" id="collapseExample">
     <div class="main-container moduleLegales">
     {% assign legales = site.legales | where: "categories","bonificacion" %}
         {% for legal in legales %}
@@ -46,3 +51,5 @@ layout: default
         {% endfor %}
     </div>
 </section>
+
+/// id="basesycondiciones"
