@@ -11,7 +11,7 @@ layout: legales
 
   {% for post in site.posts %}
     <div>
-        <img src="{{page.hero.image}}" alt="">
+        <img src="{{post.hero.image}}" alt="">
         <a href="{{ post.url }}">{{ post.title }}</a>
         {{ post.excerpt }}
     </div>  
