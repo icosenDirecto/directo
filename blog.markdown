@@ -6,13 +6,15 @@ layout: legales
 
 <section>
 
-<div>
+<div class="blog">
 
   {% for post in site.posts %}
     <div>
         <img src="{{post.hero.image}}" alt="">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        {{ post.excerpt }}
+        <a href="{{ post.url }}">
+            <p class="blogTitle">{{ post.title }}<p>
+        </a>
+        <p>{{ post.excerpt }}</p>
     </div>  
   {% endfor %}
 
