@@ -8,9 +8,11 @@ layout: legales
 
 <div class="blog">
   {% for post in site.posts %}
+    <div class="blogSingle">
         <img src="{{post.hero.image}}" alt="">
         <p class="blogTitle"><a href="{{ post.url }}">{{ post.title }}</a></p>
-        <p>{{ post.excerpt }}</p>  
+        <p>{{ post.excerpt }}</p>
+    </div>
   {% endfor %}
 </div>
 
