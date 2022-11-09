@@ -7,7 +7,7 @@ hero:
   image: "/uploads/blog_001.png"
 ---
 
-### ¿Cómo gastar sin culpa? Si te cuesta abrir la billetera para hacer un gasto, esta nota es para vos. Ahorrar está bien, pero usar tu plata también.
+¿Cómo gastar sin culpa? Si te cuesta abrir la billetera para hacer un gasto, esta nota es para vos. Ahorrar está bien, pero usar tu plata también.
 
 Muchas personas se sienten culpables a la hora de hacer un gasto para ellas mismas: un finde con amigos, un par de zapatos nuevos o incluso unas vacaciones. ¿Te sentís identificado? Si es así, seguí leyendo.
 
