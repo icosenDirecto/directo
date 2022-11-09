@@ -5,7 +5,7 @@ categories:
 - Organizar mi plata
 ---
 
-### Cómo planear a corto y a largo plazo. En esta nota te explicamos cuál es la diferencia entre estos objetivos y cómo aprovecharlos para tu economía personal.
+Cómo planear a corto y a largo plazo. En esta nota te explicamos cuál es la diferencia entre estos objetivos y cómo aprovecharlos para tu economía personal.
 
 Ya te explicamos cómo ahorrar y tips para organizarte, pero hoy vamos un paso más adelante para hablar sobre objetivos a corto y a largo plazo. A la hora de encarar nuestra economía personal es importante que tengamos en claro no sólo cuáles son las metas que queremos alcanzar, sino organizarlas para ponerles plazos realistas y no frustrarnos. 
 

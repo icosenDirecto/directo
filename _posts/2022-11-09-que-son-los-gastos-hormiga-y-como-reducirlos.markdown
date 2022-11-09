@@ -5,7 +5,7 @@ categories:
 - Organizar mi plata
 ---
 
-### Qué son los gastos hormiga y cómo reducirlos. A veces, sin darnos cuenta, terminamos gastando más de lo planeado. Hoy te contamos sobre estos gastos “invisibles” y cómo eliminarlos.
+Qué son los gastos hormiga y cómo reducirlos. A veces, sin darnos cuenta, terminamos gastando más de lo planeado. Hoy te contamos sobre estos gastos “invisibles” y cómo eliminarlos.
 
 ¿A veces sentís que no sabés en qué se te va la plata? En muchos casos los responsables suelen ser los gastos hormiga, aquellas compras que hacemos sin pensarlo o por inercia y, por lo tanto, sin medir las consecuencias que pueden tener en nuestro bolsillo. Si logramos identificarlos, vamos a poder tener un mayor control sobre nuestras finanzas, para lograr alcanzar la libertad financiera. 
 
