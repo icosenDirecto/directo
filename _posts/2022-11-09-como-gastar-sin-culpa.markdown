@@ -3,6 +3,8 @@ title: "¿Cómo gastar sin culpa?"
 date: 2022-11-09 22:27:00 Z
 categories:
 - Organizar mi plata
+hero:
+  image: 
 ---
 
 ### ¿Cómo gastar sin culpa? Si te cuesta abrir la billetera para hacer un gasto, esta nota es para vos. Ahorrar está bien, pero usar tu plata también.
