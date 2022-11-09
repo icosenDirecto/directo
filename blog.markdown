@@ -4,12 +4,19 @@ date: 2022-11-09 22:22:00 Z
 layout: legales
 ---
 
+
+<section>
+
 <div>
-<ul>
+
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    <div>
+        <img src="{{page.hero.image}}" alt="">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        {{ post.excerpt }}
+    </div>  
   {% endfor %}
-</ul>
+
 </div>
+
+</section>
