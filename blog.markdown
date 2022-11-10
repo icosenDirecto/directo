@@ -11,7 +11,7 @@ layout: legales
     <div class="blogSingle">
         <img src="{{post.hero.image}}" alt="">
         <p class="blogTitle"><a href="{{ post.url }}">{{ post.title }}</a></p>
-        <p>{{ post.category }}</p>
+        <p class="blogCategory">{{ post.category }}</p>
         <p>{{ post.excerpt }}</p>
     </div>
   {% endfor %}
