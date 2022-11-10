@@ -6,6 +6,19 @@
     gap: 24px;
 }
 
-blogTitle {
-    
+.blogSingle {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+p.blogTitle a {
+    font-size: 24px;
+    line-height: 1.2;
+    color: #004489;
+}
+
+.blogSingle p {
+    color: #222;
+    font-weight: 400;
 }
