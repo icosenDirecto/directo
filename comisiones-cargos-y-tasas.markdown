@@ -35,7 +35,7 @@ layout: legales
 </div>
 
 <div>
-{{ % for electro in site.data.electro.bicicleta %}}
+{{ % for electro in site.data.electro-bicicleta %}}
 {{ electro.titulo }}
 {{ electro.tna-min }}
 {{ electro.tna-max }}
