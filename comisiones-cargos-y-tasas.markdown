@@ -18,3 +18,7 @@ financiacion:
 layout: legales
 ---
 
+<div>
+{{page.electro-bicicleta.tna.min}}
+{{page.electro-bicicleta.tna.max}}
+</div>
