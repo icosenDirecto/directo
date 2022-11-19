@@ -22,8 +22,22 @@ financiacion:
 layout: legales
 ---
 
+<div class="moduleCredito">
+  <div>
+    <p>{{page.financiacion.electro-bicicleta.titulo}}</p>
+  </div>
+  <div>
+    <p>{{page.financiacion.electro-bicicleta.tna.titulo}}</p>
+    {{page.financiacion.electro-bicicleta.tna.min}}
+    {{page.financiacion.electro-bicicleta.tna.max}}
+  </div>
+
+</div>
+
 <div>
-Hola!
-{{page.financiacion.electro-bicicleta.tna.min}}
-{{page.financiacion.electro-bicicleta.tna.max}}
+{{ % for electro in site.data.electro.bicicleta %}}
+{{ electro.titulo }}
+{{ electro.tna-min }}
+{{ electro.tna-max }}
+{{ % endfor %}}
 </div>
