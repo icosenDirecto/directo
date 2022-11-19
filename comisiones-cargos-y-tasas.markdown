@@ -34,10 +34,10 @@ layout: legales
 
 </div>
 
-<div>
-{{ % for electro in site.data.electro-bicicleta %}}
+<div class="moduleCredito">
+{% for electro in site.data.electro-bicicleta %}
 {{ electro.titulo }}
 {{ electro.tna-min }}
 {{ electro.tna-max }}
-{{ % endfor %}}
+{% endfor %}
 </div>
