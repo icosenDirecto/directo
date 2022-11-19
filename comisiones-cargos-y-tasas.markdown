@@ -19,6 +19,7 @@ layout: legales
 ---
 
 <div>
+Hola!
 {{page.electro-bicicleta.tna.min}}
 {{page.electro-bicicleta.tna.max}}
 </div>
