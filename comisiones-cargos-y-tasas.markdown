@@ -35,7 +35,7 @@ layout: legales
 </div>
 
 <div class="moduleCredito">
-Prueba "sep=;"
+Prueba "col_sep"
 {% for electro in site.data.electro-bicicleta %}
 {{ electro.titulo }}
 {{ electro.tna-min }}
