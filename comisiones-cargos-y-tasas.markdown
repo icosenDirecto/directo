@@ -35,9 +35,11 @@ layout: legales
 </div>
 
 <div class="moduleCredito">
-Prueba ".tsv"
+Prueba ".csv semicolon"
 {% for electro in site.data.electro-bicicleta %}
 {{ electro.titulo }}
+{{ electro.nombre }}
+{{ electro.apellido }}
 {{ electro.tna-min }}
 {{ electro.tna-max }}
 {% endfor %}
