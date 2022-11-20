@@ -35,7 +35,7 @@ layout: legales
 </div>
 
 <div class="moduleCredito">
-Prueba ".csv semicolon"
+Prueba ".tsv espacios"
 {% for electro in site.data.electro-bicicleta %}
 {{ electro.titulo }}
 {{ electro.nombre }}
