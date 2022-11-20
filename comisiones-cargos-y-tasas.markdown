@@ -42,3 +42,11 @@ Prueba ".tsv"
 {{ electro.tna-max }}
 {% endfor %}
 </div>
+
+<div class="moduleCredito">
+Prueba "v2.tsv"
+{% for name in site.data.nomre %}
+{{ name.nombre }}
+{{ name.apellido }}
+{% endfor %}
+</div>
