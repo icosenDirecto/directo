@@ -45,7 +45,7 @@ Prueba ".tsv"
 
 <div class="moduleCredito">
 Prueba "v2.tsv"
-{% for name in site.data.nomre %}
+{% for name in site.data.nombre %}
 {{ name.nombre }}
 {{ name.apellido }}
 {% endfor %}
