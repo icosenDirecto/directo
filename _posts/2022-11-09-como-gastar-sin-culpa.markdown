@@ -5,6 +5,7 @@ categories:
 - Organizar mi plata
 hero:
   image: "/uploads/blog_001.png"
+layout: default
 ---
 
 ¿Cómo gastar sin culpa? Si te cuesta abrir la billetera para hacer un gasto, esta nota es para vos. Ahorrar está bien, pero usar tu plata también.
